@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>QRScanner</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+	<div class="main-show-report" style="background-color: hsla(0,0%,86.7%,.7803921568627451);min-height: 100vh;padding: 20px;">
+		<h1 class="mt-5 mb-5 text-center"><b>Test</b>Corona</h1>
+		<div  class="card">
+			<p  class="mb-4 text-center">Certificate Details:</p>
+			<di v  class="info">
+				<p class="info-field"><b >Name : </b> RINU JOHNSON JOHNSON </p>
+				<p class="info-field"><b >Date of Birth : </b> 1994-04-08 </p>
+				<p class="info-field"><b >Mobile : </b> +966536008042 </p>
+				<p class="info-field"><b >Nationality : </b> INDIAN </p>
+				<p class="info-field"><b >Identification Type :</b> جواز السفر</p>
+				<p class="info-field"><b >Identification ID : </b> 2463092862 </p>
+				<p class="info-field"><b >Gender : </b> Male</p><hr>
+				<p class="info-field"><b >Result Time : </b> 2021-07-08 17:29:51 </p>
+				<p class="info-field"><b >Hours since result : </b>     <script>let n= new Date(2021,6,8,17,29,51);
+												let m= new Date();
+												var a = n.getTime()-m.getTime()
+												a=a/1000;
+												a=a/60;
+												a=a/60;
+												a=Math.abs(Math.round(a));
+												document.write(a + "   hours");</script></p>
+				<p class="mb-4"><b >Result : </b> Negative</p>
+				<button class="btn btn-danger w-100">Qr Scanner</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
